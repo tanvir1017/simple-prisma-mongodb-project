@@ -14,4 +14,4 @@
     1. Run the command `npm install prisma --save-d` **_Or_** `yarn add prisma --save-d` . We are install prisma as the **_dev-dependency_**.
     2. Second, we initialize prisma by putting this command on the terminal `npx prisma init `
        - after initializing the prisma we will get a folder called prisma with schema.prisma file.
-       - 💀 For more information go ahead to the Medium blogs and [NEXT+Prisma+Mongodb]('https://medium.com/itnext/using-prisma-orm-with-mongodb-in-next-js-e42b1f7543e6', "Mongodb with Next.js using Prisma ORM")
+       - 💀 For more information go ahead to the Medium blogs and [NEXT+Prisma+Mongodb](https://medium.com/itnext/using-prisma-orm-with-mongodb-in-next-js-e42b1f7543e6 "Mongodb with Next.js using Prisma ORM")
