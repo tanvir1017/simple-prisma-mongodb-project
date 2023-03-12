@@ -1,38 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# This is a simple NEXT.js project
 
-## Getting Started
+> This is a simple NEXT.js project with typescript also the Prisma for ORM support
 
-First, run the development server:
+## So, here in this section we will discuss how our project were setup 🤷?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1.  First we created a NEXT.js app by putting the command `npx create-next-app@latest --ts` on the terminal
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+        Here we put a template at the end of the command. By this template we are telling the node package that install latest NEXT.js app with typescript support
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2.  For CSS framework we install the most usages utility based framework called `tailwind -css`
+3.  After then we initialize the prisma `ORM`
+    - So how to initialize the prisma in next app 🤷‍♂️? Let's see:
+    1. Run the command `npm install prisma --save-d` **_Or_** `yarn add prisma --save-d` . We are install prisma as the **_dev-dependency_**.
+    2. Second, we initialize prisma by putting this command on the terminal `npx prisma init `
+       - after initializing the prisma we will get a folder called prisma with schema.prisma file.
+       - 💀 For more information go ahead to the Medium blogs and [NEXT+Prisma+Mongodb]('https://medium.com/itnext/using-prisma-orm-with-mongodb-in-next-js-e42b1f7543e6', "Mongodb with Next.js using Prisma ORM")
